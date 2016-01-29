@@ -1,5 +1,5 @@
 syntax enable
-colorscheme molokai
+colorscheme eddie
 
 
 "----------General Settings---------"
