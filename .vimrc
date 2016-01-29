@@ -11,6 +11,9 @@ set relativenumber
 
 set guifont=Droid\ Sans\ Mono:h14
 
+"Allows us to use aliases
+set shellcmdflag=-ic
+
 
 "----------Search---------"
 set hlsearch
