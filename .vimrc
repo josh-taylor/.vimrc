@@ -15,14 +15,18 @@ set guifont=Droid\ Sans\ Mono:h14
 set expandtab
 
 " Set the tab size
-set shiftwidth=2
-set softtabstop=2
+set shiftwidth=4
+set softtabstop=4
 
 " Auto-indent files
 filetype plugin indent on
 
 "Allows us to use aliases
 set shellcmdflag=-ic
+
+
+"----------Load CrtlP---------"
+set runtimepath^=~/.vim/bundle/ctrlp.vim
 
 
 "----------Search---------"
