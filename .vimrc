@@ -11,6 +11,16 @@ set relativenumber
 
 set guifont=Droid\ Sans\ Mono:h14
 
+" Convert tabs to spaces
+set expandtab
+
+" Set the tab size
+set shiftwidth=2
+set softtabstop=2
+
+" Auto-indent files
+filetype plugin indent on
+
 "Allows us to use aliases
 set shellcmdflag=-ic
 
