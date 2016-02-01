@@ -12,6 +12,8 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 
+Plugin 'ctrlpvim/ctrlp.vim'                     "CtrlP
+
 Plugin 'tobyS/vmustache'                        "Mustache engine
 
 Plugin 'SirVer/ultisnips'                       "Snippets engine
