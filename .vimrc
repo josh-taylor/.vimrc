@@ -1,6 +1,31 @@
 syntax enable
 colorscheme eddie
 
+set nocompatible                                                      "Makes vim a lot more useful
+
+"----------Vundle---------"
+
+"Set the runtime path to include Vundle
+set rtp+=~/.vim/bundle/Vundle.vim
+
+call vundle#begin()
+
+Plugin 'VundleVim/Vundle.vim'
+
+Plugin 'tobyS/vmustache'                        "Mustache engine
+
+Plugin 'SirVer/ultisnips'                       "Snippets engine
+
+Plugin 'tobyS/pdv'                              "PHPDocumentor plugin
+
+
+call vundle#end()
+filetype plugin indent on
+
+"----------PhpDocumentor For Vim---------"
+let g:pdv_template_dir = $HOME ."/.vim/bundle/pdv/templates_snip"
+inoremap <F2> :call pdv#DocumentWithSnip()<CR>
+
 
 "----------General Settings---------"
 set backspace=indent,eol,start                                        "Make backspaces behave like every other editor
