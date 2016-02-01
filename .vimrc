@@ -18,7 +18,7 @@ Plugin 'SirVer/ultisnips'                       "Snippets engine
 
 Plugin 'tobyS/pdv'                              "PHPDocumentor plugin
 
-Plugin 'jwalton512/vim-blade'                   "Blade plugin
+Plugin 'sheerun/vim-polyglot'                   "Shit loads of languages
 
 call vundle#end()
 filetype plugin indent on
