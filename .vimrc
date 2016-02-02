@@ -22,6 +22,8 @@ Plugin 'tobyS/pdv'                              "PHPDocumentor plugin
 
 Plugin 'sheerun/vim-polyglot'                   "Shit loads of languages
 
+Plugin 'scrooloose/nerdtree'                    "NERDTree plugin
+
 call vundle#end()
 filetype plugin indent on
 
@@ -92,6 +94,8 @@ nmap <Leader><space> :nohlsearch<cr>
 
 "Format the whole file
 nmap <Leader>= gg=G<cr>
+
+nmap <D-1> :NERDTreeToggle<cr>
 
 
 "----------Auto-Commands---------"
