@@ -94,6 +94,8 @@ nmap <Leader>= gg=G<cr>
 
 "----------Auto-Commands---------"
 
+autocmd BufNewFile,BufRead *.blade.php set ft=html | set ft=phtml | set ft=blade " Fix blade auto-indent
+
 "Automatically source the Vimrc file on save.
 augroup autosourcing
 	autocmd!
