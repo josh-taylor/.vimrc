@@ -89,6 +89,8 @@ nmap <C-L> <C-W><C-L>
 
 "Add simple highlight removal
 nmap <Leader><space> :nohlsearch<cr>
+
+"Format the whole file
 nmap <Leader>= gg=G<cr>
 
 
