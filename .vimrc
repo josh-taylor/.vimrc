@@ -26,8 +26,13 @@ Plugin 'scrooloose/nerdtree'                    "NERDTree plugin
 
 Plugin 'scrooloose/nerdcommenter'               "NERDCommenter plugin
 
+Plugin 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
+
 call vundle#end()
 filetype plugin indent on
+
+"Set for the powerline status to show
+set laststatus=2
 
 "----------PhpDocumentor For Vim---------"
 let g:pdv_template_dir = $HOME ."/.vim/bundle/pdv/templates_snip"
@@ -42,7 +47,7 @@ set number
 set relativenumber
 
 "----------Visuals---------"
-set guifont=Droid\ Sans\ Mono:h14
+set guifont=Droid\ Sans\ Mono\ For\ Powerline:h14
 
 set linespace=12
 
