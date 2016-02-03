@@ -107,6 +107,9 @@ vmap <D-/> <plug>NERDCommenterToggle<cr>
 
 autocmd BufNewFile,BufRead *.blade.php set ft=html | set ft=phtml | set ft=blade " Fix blade auto-indent
 
+"Strip white spaces
+autocmd BufWritePre * :%s/\s\+$//e
+
 "Automatically source the Vimrc file on save.
 augroup autosourcing
 	autocmd!
