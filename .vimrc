@@ -100,6 +100,7 @@ nmap <Leader>= gg=G<cr>
 nmap <D-1> :NERDTreeToggle<cr>
 
 nmap <D-/> <plug>NERDCommenterToggle<cr>
+vmap <D-/> <plug>NERDCommenterToggle<cr>
 
 
 "----------Auto-Commands---------"
