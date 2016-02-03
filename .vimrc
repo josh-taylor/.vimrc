@@ -24,6 +24,8 @@ Plugin 'sheerun/vim-polyglot'                   "Shit loads of languages
 
 Plugin 'scrooloose/nerdtree'                    "NERDTree plugin
 
+Plugin 'scrooloose/nerdcommenter'               "NERDCommenter plugin
+
 call vundle#end()
 filetype plugin indent on
 
@@ -96,6 +98,8 @@ nmap <Leader><space> :nohlsearch<cr>
 nmap <Leader>= gg=G<cr>
 
 nmap <D-1> :NERDTreeToggle<cr>
+
+nmap <D-/> <plug>NERDCommenterToggle<cr>
 
 
 "----------Auto-Commands---------"
