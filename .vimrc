@@ -28,8 +28,14 @@ Plugin 'scrooloose/nerdcommenter'               "NERDCommenter plugin
 
 Plugin 'vim-airline/vim-airline'                "VIM Airline
 
+Plugin 'mattn/emmet-vim'                        "Emmet
+
 call vundle#end()
 filetype plugin indent on
+
+
+"----------Airline---------"
+imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab>")
 
 
 "----------Airline---------"
