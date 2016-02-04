@@ -26,8 +26,16 @@ Plugin 'scrooloose/nerdtree'                    "NERDTree plugin
 
 Plugin 'scrooloose/nerdcommenter'               "NERDCommenter plugin
 
+Plugin 'vim-airline/vim-airline'                "VIM Airline
+
 call vundle#end()
 filetype plugin indent on
+
+
+"----------Airline---------"
+set laststatus=2
+let g:airline_powerline_fonts=1
+
 
 "----------PhpDocumentor For Vim---------"
 let g:pdv_template_dir = $HOME ."/.vim/bundle/pdv/templates_snip"
@@ -42,9 +50,10 @@ set number
 set relativenumber
 
 "----------Visuals---------"
-set guifont=Droid\ Sans\ Mono:h14
+set guifont=Droid\ Sans\ Mono\ For\ Powerline:h14
 
-set linespace=12
+"Shrunk down for now until we can maybe set it for airline only?
+set linespace=2
 
 " Remove scrollbars
 set guioptions-=l
