@@ -30,6 +30,8 @@ Plugin 'vim-airline/vim-airline'                "VIM Airline
 
 Plugin 'mattn/emmet-vim'                        "Emmet
 
+Plugin 'captbaritone/better-indent-support-for-php-with-html' "Better indentation support for phtml files
+
 call vundle#end()
 filetype plugin indent on
 
