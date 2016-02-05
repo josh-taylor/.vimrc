@@ -32,11 +32,19 @@ Plugin 'mattn/emmet-vim'                        "Emmet
 
 Plugin 'captbaritone/better-indent-support-for-php-with-html' "Better indentation support for phtml files
 
+Plugin 'mjoey/vim-magento'                      "Magento module maker
+
 call vundle#end()
 filetype plugin indent on
 
 
-"----------Airline---------"
+"----------Magento---------"
+
+"Disable the comment signature
+let g:vimMagentoSignature=0
+
+
+"----------Emmet---------"
 imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab>")
 
 
