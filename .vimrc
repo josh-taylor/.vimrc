@@ -34,6 +34,8 @@ Plugin 'captbaritone/better-indent-support-for-php-with-html' "Better indentatio
 
 Plugin 'mjoey/vim-magento'                      "Magento module maker
 
+Plugin 'mustache/vim-mustache-handlebars'       "Handlebars syntax
+
 call vundle#end()
 filetype plugin indent on
 
