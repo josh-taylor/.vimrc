@@ -36,6 +36,8 @@ Plugin 'mjoey/vim-magento'                      "Magento module maker
 
 Plugin 'mustache/vim-mustache-handlebars'       "Handlebars syntax
 
+Plugin 'tpope/vim-vinegar'                      "Vim vinegar
+
 call vundle#end()
 filetype plugin indent on
 
@@ -124,6 +126,10 @@ nmap <Leader><space> :nohlsearch<cr>
 "Format the whole file
 nmap <Leader>= gg=G<cr>
 
+"Don't hijack netrw
+let NERDTreeHijackNetrw = 0
+
+"Make NERDTree easier to toggle
 nmap <D-1> :NERDTreeToggle<cr>
 
 nmap <D-/> <plug>NERDCommenterToggle<cr>
