@@ -75,6 +75,9 @@ set guifont=Droid\ Sans\ Mono\ For\ Powerline:h14
 "Shrunk down for now until we can maybe set it for airline only?
 set linespace=2
 
+"We don't want gui tabs
+set guioptions-=e
+
 " Remove scrollbars
 set guioptions-=l
 set guioptions-=L
@@ -125,6 +128,9 @@ nmap <Leader><space> :nohlsearch<cr>
 
 "Format the whole file
 nmap <Leader>= gg=G<cr>
+
+"Make it easy to edit the Vimrc file.
+nmap <Leader>ev :tabedit $MYVIMRC<cr>
 
 "Don't hijack netrw
 let NERDTreeHijackNetrw = 0
