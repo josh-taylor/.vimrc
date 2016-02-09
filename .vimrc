@@ -84,6 +84,10 @@ set guioptions-=L
 set guioptions-=r
 set guioptions-=R
 
+"Set the colour of the vertical split
+hi vertsplit guifg=bg guibg=bg
+
+
 "----------Formatting---------"
 " Convert tabs to spaces
 set expandtab
