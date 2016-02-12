@@ -145,6 +145,10 @@ nmap <D-1> :NERDTreeToggle<cr>
 nmap <D-/> <plug>NERDCommenterToggle<cr>
 vmap <D-/> <plug>NERDCommenterToggle<cr>
 
+"Make vim save the swap files in our temp directory
+set backupdir=$TMPDIR//
+set directory=$TMPDIR//
+
 
 "----------Auto-Commands---------"
 
