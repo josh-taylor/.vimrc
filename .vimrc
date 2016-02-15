@@ -38,6 +38,8 @@ Plugin 'mustache/vim-mustache-handlebars'       "Handlebars syntax
 
 Plugin 'tpope/vim-vinegar'                      "Vim vinegar
 
+Plugin 'Raimondi/delimitMate'                   "Automatically add closing parenthesis, quotes, etc...
+
 call vundle#end()
 filetype plugin indent on
 
