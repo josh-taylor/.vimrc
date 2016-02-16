@@ -154,6 +154,12 @@ set directory=$TMPDIR//
 
 "----------Auto-Commands---------"
 
+"Disable bells
+set noerrorbells visualbell t_vb=
+if has('autocmd')
+  autocmd GUIEnter * set visualbell t_vb=
+endif
+
 autocmd BufNewFile,BufRead *.blade.php set ft=html | set ft=phtml | set ft=blade " Fix blade auto-indent
 
 "Strip white spaces
