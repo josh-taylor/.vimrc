@@ -50,6 +50,11 @@ filetype plugin indent on
 let g:vimMagentoSignature=0
 
 
+"----------CtrlP---------"
+" Unset the cap for max files searched
+let g:ctrl_p_max_files = 0
+
+
 "----------Emmet---------"
 imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab>")
 
@@ -148,8 +153,8 @@ nmap <D-/> <plug>NERDCommenterToggle<cr>
 vmap <D-/> <plug>NERDCommenterToggle<cr>
 
 "Make vim save the swap files in our temp directory
-set backupdir=$TMPDIR//
-set directory=$TMPDIR//
+set backupdir=/tmp//
+set directory=/tmp//
 
 
 "----------Auto-Commands---------"
