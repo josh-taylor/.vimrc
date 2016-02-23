@@ -40,6 +40,8 @@ Plugin 'tpope/vim-vinegar'                      "Vim vinegar
 
 Plugin 'Raimondi/delimitMate'                   "Automatically add closing parenthesis, quotes, etc...
 
+Plugin 'tpope/vim-surround'                     "Surround plugin for changing the surrounding
+
 call vundle#end()
 filetype plugin indent on
 
