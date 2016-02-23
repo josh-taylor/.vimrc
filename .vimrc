@@ -159,6 +159,13 @@ set backupdir=/tmp//
 set directory=/tmp//
 
 
+"----------Magento Commands---------"
+
+" Copy from the design folder
+nmap <Leader>md :!cp app/design/frontend/rwd/default/
+nmap <Leader>ms :!cp skin/frontend/rwd/default/
+
+
 "----------Auto-Commands---------"
 
 "Disable bells
