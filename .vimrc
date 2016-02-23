@@ -111,6 +111,9 @@ filetype plugin indent on
 "Allows us to use aliases
 set shellcmdflag=-ic
 
+"Allow expands from the mustache syntax
+let g:mustache_abbreviations = 1
+
 
 "----------Load CrtlP---------"
 set runtimepath^=~/.vim/bundle/ctrlp.vim
