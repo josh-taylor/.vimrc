@@ -5,6 +5,8 @@ set nocompatible                                                      "Makes vim
 
 "----------Vundle---------"
 
+filetype off
+
 "Set the runtime path to include Vundle
 set rtp+=~/.vim/bundle/Vundle.vim
 
@@ -28,8 +30,6 @@ Plugin 'scrooloose/nerdcommenter'               "NERDCommenter plugin
 
 Plugin 'vim-airline/vim-airline'                "VIM Airline
 
-Plugin 'mattn/emmet-vim'                        "Emmet
-
 Plugin 'captbaritone/better-indent-support-for-php-with-html' "Better indentation support for phtml files
 
 Plugin 'mjoey/vim-magento'                      "Magento module maker
@@ -43,7 +43,18 @@ Plugin 'Raimondi/delimitMate'                   "Automatically add closing paren
 Plugin 'tpope/vim-surround'                     "Surround plugin for changing the surrounding
 
 call vundle#end()
+
 filetype plugin indent on
+
+
+"----------Ultisnips---------"
+" Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<tab>"
+let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
+
+" If you want :UltiSnipsEdit to split your window.
+let g:UltiSnipsEditSplit="vertical"
 
 
 "----------Magento---------"
@@ -55,10 +66,6 @@ let g:vimMagentoSignature=0
 "----------CtrlP---------"
 " Unset the cap for max files searched
 let g:ctrl_p_max_files = 0
-
-
-"----------Emmet---------"
-imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab>")
 
 
 "----------Airline---------"
