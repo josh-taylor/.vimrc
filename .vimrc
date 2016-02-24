@@ -128,7 +128,7 @@ set runtimepath^=~/.vim/bundle/ctrlp.vim
 if exists("g:ctrl_user_command")
   unlet g:ctrlp_user_command
 endif
-set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*/vendor/*,*/\.git/*,*/node_modules/*
+set wildignore+=*/.git/*,*/.DS_Store,*/node_modules/*,*/vendor/*,*.zip,*/var/*
 
 "----------Search---------"
 set hlsearch
